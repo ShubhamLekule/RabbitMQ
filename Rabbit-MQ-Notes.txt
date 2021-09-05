@@ -1,0 +1,1 @@
+To enable rabbit mq UI: Go to rabbit mq sbin folder and open cmd type "rabbitmq-plugins enable rabbitmq_management"
