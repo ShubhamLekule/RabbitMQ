@@ -1,1 +1,2 @@
 To enable rabbit mq UI: Go to rabbit mq sbin folder and open cmd type "rabbitmq-plugins enable rabbitmq_management"
+To get rabbit mq: "docker run -d --restart always --name rabbitmq --hostname my-rabbit -p 5672:5672 -p 15672:15672 -v D:\GIT\RabbitMQ\RabbitMQ_DockerData:/var/lib/rabbitmq/mnesia rabbitmq:3-management"
