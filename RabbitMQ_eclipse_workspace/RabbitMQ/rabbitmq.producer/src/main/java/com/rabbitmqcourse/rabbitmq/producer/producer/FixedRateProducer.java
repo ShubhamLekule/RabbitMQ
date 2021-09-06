@@ -21,7 +21,7 @@ public class FixedRateProducer {
 	private void sendMessage()
 	{
 		i++;
-		Log.info("I is { "+i+" }");
+		//Log.info("I is { "+i+" }");
 		rabbitMqFixedRateProducer.convertAndSend("rabbitmq.fixedrate","Fixed Rate : "+ i );
 	}
 }
